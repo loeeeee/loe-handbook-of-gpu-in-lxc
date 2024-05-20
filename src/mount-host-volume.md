@@ -1,6 +1,6 @@
 # Mount host volume in LXC
 
-This part of the guide is about mounting a directory from the host to a unprivileged container. The directory can be a SMB or a NFS share that is already mounted on the host, or any other local directory, as long as they have proper permission set.
+This part of the guide is about mounting a directory from the host to a unprivileged container. The directory can be a SMB or a NFS share that is already mounted on the host, or any other local directory.
 
 ## Mount the directory
 
