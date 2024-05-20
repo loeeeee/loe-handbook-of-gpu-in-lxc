@@ -1,0 +1,15 @@
+theme: jekyll-theme-minimal
+title: Loe's Handbook of LXC
+description: Star if you like it
+
+# Jekyll
+lsi: false
+safe: true
+source: ["./src"]
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
