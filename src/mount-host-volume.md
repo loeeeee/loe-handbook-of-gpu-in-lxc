@@ -30,13 +30,13 @@ If we would like to have the group with id 12345 to access the directory on the 
 So, in the host machine, 
 
 ```bash
-groupadd -g 912345 lxc_shares
+groupadd -g 154321 lxc_shares
 ```
 
 In the container,
 
 ```bash
-groupadd -g 12345 lxc_shares
+groupadd -g 54321 lxc_shares
 ```
 
 Note the name of the group does not need to be the same in host and container, but to make one's life easier in the future, it is good to keep them the same.
